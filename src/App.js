@@ -34,6 +34,8 @@ import { Route, Router } from 'react-router-dom';
 import './App.css';
 
 import Home from './views/Home';
+import Header from './components/Header';
+
 import ImageInput from './views/ImageInput';
 import VideoInput from './views/VideoInput';
 
@@ -47,6 +49,7 @@ class App extends Component {
       <div className="App">
         <Router history={createHistory({ basename: process.env.PUBLIC_URL })}>
           <div className="route">
+          <Header />
             <Route exact path="/" component={Home} />
             <Route exact path="/photo" component={ImageInput} />
             <Route exact path="/camera" component={VideoInput} />

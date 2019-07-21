@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/face-recognition-adila/static/css/main.2cce8147.chunk.css",
+    "main.js": "/face-recognition-adila/static/js/main.751f4d9c.chunk.js",
+    "main.js.map": "/face-recognition-adila/static/js/main.751f4d9c.chunk.js.map",
+    "runtime~main.js": "/face-recognition-adila/static/js/runtime~main.f7c51332.js",
+    "runtime~main.js.map": "/face-recognition-adila/static/js/runtime~main.f7c51332.js.map",
+    "static/js/2.3e0593ab.chunk.js": "/face-recognition-adila/static/js/2.3e0593ab.chunk.js",
+    "static/js/2.3e0593ab.chunk.js.map": "/face-recognition-adila/static/js/2.3e0593ab.chunk.js.map",
+    "index.html": "/face-recognition-adila/index.html",
+    "precache-manifest.60ef12975d37f187de7f2329a03db6a8.js": "/face-recognition-adila/precache-manifest.60ef12975d37f187de7f2329a03db6a8.js",
+    "service-worker.js": "/face-recognition-adila/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/face-recognition-adila/static/css/main.2cce8147.chunk.css.map",
+    "static/media/test.jpg": "/face-recognition-adila/static/media/test.ccd20247.jpg"
+  }
+}
