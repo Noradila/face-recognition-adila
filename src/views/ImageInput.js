@@ -32,12 +32,15 @@ class ImageInput extends Component {
 
   handleImage = async (image = this.state.imageURL) => {
     await getFullFaceDescription(image).then(fullDesc => {
+      //console.log(fullDesc); //display on console
+
       if (!!fullDesc) {
         this.setState({
           fullDesc,
           detections: fullDesc.map(fd => fd.detection),
           descriptors: fullDesc.map(fd => fd.descriptor)
         });
+        console.log(fullDesc.map(fd => fd.descriptor)) //display descriptor/feature vector
       }
     });
 
