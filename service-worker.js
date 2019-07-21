@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/face-recognition-adila/precache-manifest.60ef12975d37f187de7f2329a03db6a8.js"
+  "/face-recognition-adila/precache-manifest.a7d23529d33abe09cd18da6d7ae9020d.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf87b35681897dd6f94af9f13abe47d2",
+    "revision": "a2af36258384b800372214f9fd455781",
     "url": "/face-recognition-adila/index.html"
   },
   {
-    "revision": "7e35a434d30364040d25",
-    "url": "/face-recognition-adila/static/css/main.2cce8147.chunk.css"
+    "revision": "07708df6ab822e63dfb5",
+    "url": "/face-recognition-adila/static/css/main.729d8e0c.chunk.css"
   },
   {
-    "revision": "a4c9c2c0521d0d700df5",
-    "url": "/face-recognition-adila/static/js/2.3e0593ab.chunk.js"
+    "revision": "fc13b2e638ab66374c32",
+    "url": "/face-recognition-adila/static/js/2.a5aa172a.chunk.js"
   },
   {
-    "revision": "7e35a434d30364040d25",
-    "url": "/face-recognition-adila/static/js/main.751f4d9c.chunk.js"
+    "revision": "07708df6ab822e63dfb5",
+    "url": "/face-recognition-adila/static/js/main.3f52b32c.chunk.js"
   },
   {
     "revision": "acdf8017c96f3f97657e",
