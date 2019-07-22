@@ -10,6 +10,8 @@ const WIDTH = 420;
 const HEIGHT = 420;
 const inputSize = 160;
 
+const position = 0;
+
 class VideoInput extends Component {
   constructor(props) {
     super(props);
@@ -99,6 +101,9 @@ class VideoInput extends Component {
       }
     }
 
+   
+
+
     let drawBox = null;
     if (!!detections) {
       drawBox = detections.map((detection, i) => {
@@ -171,6 +176,28 @@ class VideoInput extends Component {
             {!!drawBox ? drawBox : null}
           </div>
         </div>
+        <p style={{
+            color: 'black',
+          }}>
+
+          {new Date().toDateString().toString() + ", "}
+          {new Date().toLocaleTimeString().toString()}
+		
+		  <div id="output"></div>
+
+          {navigator.geolocation.getCurrentPosition(
+   			function success(position) {
+     		// for when getting location is a success
+     			console.log('latitude', position.coords.latitude, 
+                 'longitude', position.coords.longitude);
+                 document.getElementById("output").innerHTML = "Latitude: " + position.coords.latitude
+                 + " Longitude: " + position.coords.longitude
+   			}, 
+          )} 
+
+          
+
+          </p>
       </div>
     );
   }

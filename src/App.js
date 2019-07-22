@@ -38,6 +38,8 @@ import Header from './components/Header';
 
 import ImageInput from './views/ImageInput';
 import VideoInput from './views/VideoInput';
+import About from './views/About';
+import Contact from './views/Contact';
 
 import { createBrowserHistory as createHistory } from 'history'
 const history: History = createHistory()

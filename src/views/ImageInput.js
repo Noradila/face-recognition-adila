@@ -40,7 +40,8 @@ class ImageInput extends Component {
           detections: fullDesc.map(fd => fd.detection),
           descriptors: fullDesc.map(fd => fd.descriptor)
         });
-        console.log(fullDesc.map(fd => fd.descriptor)) //display descriptor/feature vector
+        //console.log(fullDesc.map(fd => fd.descriptor)); //display descriptor/feature vector
+        //document.getElementById("output").innerHTML = fullDesc.map(fd => fd.descriptor);
       }
     });
 
@@ -102,6 +103,7 @@ class ImageInput extends Component {
                   {match[i]._label}
                 </p>
               ) : null}
+
             </div>
           </div>
         );
@@ -122,8 +124,15 @@ class ImageInput extends Component {
           </div>
           {!!drawBox ? drawBox : null}
         </div>
+
+        
+        <p id="output" style={{
+          position: 'relative'}}></p>
       </div>
+
     );
+
+
   }
 }
 

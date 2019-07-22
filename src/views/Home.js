@@ -7,7 +7,6 @@ export default class Home extends Component {
       <div>
         <h2>Facial Recognition App</h2>
 
-
         <div style={{
   			overflow: 'hidden',
   			color: 'white',

@@ -6,14 +6,17 @@ class Header extends Component {
     return (
       <header>
         <div className="Navbar">
-          <Link to="/">Home</Link>
-          <Link to="/photo">Photo Input</Link>
-          <Link to="/camera">Video Camera</Link>
 
+      
+            <Link to="/">Home</Link>
+           
           <div className="dropdown">
-            <button className="dropbtn">Dropdown</button>
+            <button className="dropbtn">
+            Facial Recognition
+            </button>
               <div className="dropdown-content">
-                <Link to="/">Something</Link>
+                <Link to="/photo">Photo</Link>
+                <Link to="/camera">Camera</Link>
               </div>
           </div>
         </div>
